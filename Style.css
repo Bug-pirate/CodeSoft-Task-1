@@ -1,0 +1,308 @@
+*{
+    margin: 0; 
+    border: border-box;
+}
+
+.navbar{
+    height: 180px;
+    background-color: #34353a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 80px;
+    width: 300px;
+
+    /* background-color: aqua; */
+   
+}
+
+.logo{
+    background-repeat: no-repeat;
+    background-image: url("Alogo.png");
+    background-size: contain;
+    height: 80px;
+    width: 80px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+.link-section{
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    /* background-color: aqua; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-link{
+    /* color: white; */
+    
+}
+
+
+
+
+.input-section{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: aqua; */
+
+}
+
+.input-search{
+    height: 45px;
+    width: 150px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 7%;
+    margin-left: 20%;
+    background-color: #3d3e42;
+    border: none;
+    color: white;
+}
+
+::placeholder {
+    color: #9fa0a1;
+    opacity: 1; /* Firefox */
+    margin-left: 9px;
+  }
+  
+.search-icon{
+    height: 45px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+    font-size: 1.2rem;
+    color: #9fa0a1;
+    /* margin: 9px; */
+    background-color: rgb(79, 79, 79);
+}
+
+.main-section{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #34353a;
+}
+
+.name-section{
+    height: 200px;
+    width: 65%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    
+}
+
+.i-m{
+    font-size: 30px;
+    font-family:  'Bree Serif', serif;
+    color: white;
+    
+}
+
+.my-name{
+    font-size: 60px;
+    color: rgb(255, 190, 27);
+    font-family: 'Bree Serif', serif;
+}
+
+.main-work{
+    font-size: 30px;
+    font-family:  'Bree Serif', serif;
+    color: white;
+    
+}
+    
+.media-icon{
+    height: 50px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    justify-content: space-between;
+}
+
+
+.name-info{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-section{
+    height: 500px;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.photo{
+
+    height: 500px;
+    width: 450px;
+    margin-bottom: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("robo.png");
+    border-radius: 0%;
+}
+
+tr{
+    /* justify-content: space-around; */
+}
+
+.about-section{
+    height: 2000px;
+    background-color: #31333b;
+}
+
+.about-info{
+    height: 430px;
+    width: 100%;
+}
+
+.information{
+    height: 240px;
+    padding-top: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 22px;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    
+}
+
+.about-main{
+    padding-top: 70px;
+    padding-left: 100px;
+    height: 70px;
+    font-size: 55px;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    
+}
+
+.skill-section{
+    height: 900px;
+    width: 100%;
+}
+
+.skill-tag{
+    font-size: 55px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.pr-lang1{
+    height: 250px;
+    
+    display: flex;
+    padding: 50px;
+    
+    justify-content: space-evenly;  
+   
+}
+
+.pr-lang2{
+    height: 250px;
+    display: flex;
+    padding: 50px;
+    
+    justify-content: space-evenly;
+    
+    
+}
+
+.lang-logo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.HTML{
+    background-image: url("HTML.png");
+}
+
+.py{
+    background-image: url("python.png");
+}
+
+.java{
+    background-image: url("java.png");
+}
+
+.css{
+    background-image: url("css.png");
+}
+
+.js{
+    background-image: url("javascript.png");
+}
+
+.sql{
+    background-image: url("sql.png");
+}
+
+.Mongo{
+    background-image: url("mongo.png");
+}
+
+.flutter{
+    background-image: url("flutter.png");
+}
+
+.box{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    background-color: #3d3e42;
+    border-radius: 10%;
+   
+}
