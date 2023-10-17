@@ -112,7 +112,9 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #34353a;
+    
 }
+
 
 .name-section{
     height: 200px;
@@ -188,7 +190,7 @@ tr{
 }
 
 .about-section{
-    height: 2000px;
+    height: 1250px;
     background-color: #31333b;
 }
 
@@ -216,6 +218,7 @@ tr{
     font-size: 55px;
     font-family: 'Bree Serif', serif;
     color: white;
+
     
 }
 
@@ -285,7 +288,7 @@ tr{
 }
 
 .sql{
-    background-image: url("sql.png");
+    background-image: url("react.png");
 }
 
 .Mongo{
@@ -305,4 +308,166 @@ tr{
     background-color: #3d3e42;
     border-radius: 10%;
    
+}
+
+
+.project-section{
+    height: 700px;
+    width: 100%;
+    background-color: #31333b;}
+
+.heading-project{
+    height: 80px;
+    color: white;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Bree Serif', serif;
+} 
+    
+
+.project{
+    padding-top: 40px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.project1{
+    background-color: #3d3e42;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;  
+      
+}
+
+.amazon-clone{
+    height: 260px;
+    width: 80%;
+    margin-top: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("amazonclone.png");
+}
+
+.project2{
+    background-color: #3d3e42;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;    
+}
+
+.flipkart-clone{
+    height: 260px;
+    width: 80%;
+    margin-top: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("amazonclone.png");
+}
+
+.project-name{
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+.pr1-name{
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.pr2-name{
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.contact-me{
+    height: 400px;
+    width: 100%;
+    background-color: #3d3e42;
+}
+
+.contact-me-text{
+    height: 80px;
+    padding-top: 20px;
+    color: white;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Bree Serif', serif;
+}
+
+.main-cont-block{
+    height: 210px;
+    /* background-color: #31333b; */
+    /* display: flex; */
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.group1-cont{
+    height: 70px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+
+
+
+.group2-cont{
+    height: 70px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+
+.contact-box{
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #31333b;
+    border-radius: 10px;
+    /* font-size: 25px; */
+    color: #f2f3f2;
+}
+
+.info-space{
+    padding-left: 15px;
+    color: #ddaa4b;
+
 }
