@@ -16,9 +16,6 @@
 .nav-logo{
     height: 80px;
     width: 300px;
-
-    /* background-color: aqua; */
-   
 }
 
 .logo{
@@ -48,16 +45,12 @@
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 
 .nav-link{
-    /* color: white; */
-    
+    color: white;
+    text-decoration: none; 
 }
-
-
-
 
 .input-section{
     height: 50px;
@@ -65,9 +58,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* background-color: aqua; */
-
 }
 
 .input-search{
@@ -88,7 +78,7 @@
     color: #9fa0a1;
     opacity: 1; /* Firefox */
     margin-left: 9px;
-  }
+}
   
 .search-icon{
     height: 45px;
@@ -98,10 +88,8 @@
     align-items: center;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    
     font-size: 1.2rem;
     color: #9fa0a1;
-    /* margin: 9px; */
     background-color: rgb(79, 79, 79);
 }
 
@@ -112,23 +100,19 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #34353a;
-    
 }
-
 
 .name-section{
     height: 200px;
     width: 65%;
     margin-left: 20%;
-    margin-bottom: 10%;
-    
+    margin-bottom: 10%; 
 }
 
 .i-m{
     font-size: 30px;
     font-family:  'Bree Serif', serif;
     color: white;
-    
 }
 
 .my-name{
@@ -140,8 +124,7 @@
 .main-work{
     font-size: 30px;
     font-family:  'Bree Serif', serif;
-    color: white;
-    
+    color: white;   
 }
     
 .media-icon{
@@ -157,6 +140,10 @@
 }
 
 
+.fa-brands{
+    color: white;
+}
+
 .name-info{
     width: 50%;
     height: 500px;
@@ -164,6 +151,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .photo-section{
     height: 500px;
     width: 50%;
@@ -173,9 +161,7 @@
     align-items: center;
 } 
 
-
 .photo{
-
     height: 500px;
     width: 450px;
     margin-bottom: 10%;
@@ -183,10 +169,6 @@
     background-repeat: no-repeat;
     background-image: url("robo.png");
     border-radius: 0%;
-}
-
-tr{
-    /* justify-content: space-around; */
 }
 
 .about-section{
@@ -206,9 +188,7 @@ tr{
     padding-right: 150px;
     font-size: 22px;
     font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-
-    
+    color: white;  
 }
 
 .about-main{
@@ -217,9 +197,7 @@ tr{
     height: 70px;
     font-size: 55px;
     font-family: 'Bree Serif', serif;
-    color: white;
-
-    
+    color: white;    
 }
 
 .skill-section{
@@ -235,29 +213,20 @@ tr{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-
-
 .pr-lang1{
-    height: 250px;
-    
+    height: 250px; 
     display: flex;
     padding: 50px;
-    
     justify-content: space-evenly;  
-   
 }
 
 .pr-lang2{
     height: 250px;
     display: flex;
-    padding: 50px;
-    
-    justify-content: space-evenly;
-    
-    
+    padding: 50px;  
+    justify-content: space-evenly;     
 }
 
 .lang-logo{
@@ -306,10 +275,8 @@ tr{
     align-items: center;
     width: 240px;
     background-color: #3d3e42;
-    border-radius: 10%;
-   
+    border-radius: 10%; 
 }
-
 
 .project-section{
     height: 700px;
@@ -322,11 +289,9 @@ tr{
     font-size: 55px;
     display: flex;
     justify-content: center;
-
     font-family: 'Bree Serif', serif;
 } 
     
-
 .project{
     padding-top: 40px;
     height: 400px;
@@ -334,7 +299,6 @@ tr{
     justify-content: center;
     justify-items: center;
     justify-content: space-evenly;
-    
 }
 
 .project1{
@@ -344,8 +308,7 @@ tr{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5%;  
-      
+    border-radius: 5%;      
 }
 
 .amazon-clone{
@@ -373,7 +336,7 @@ tr{
     margin-top: 35px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("amazonclone.png");
+    background-image: url("Flipkart.png");
 }
 
 .project-name{
@@ -390,8 +353,7 @@ tr{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    
+    color: white;  
 }
 
 .pr2-name{
@@ -402,8 +364,7 @@ tr{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    
+    color: white; 
 }
 
 .contact-me{
@@ -414,12 +375,11 @@ tr{
 
 .contact-me-text{
     height: 80px;
-    padding-top: 20px;
+    padding-top: 40px;
     color: white;
     font-size: 55px;
     display: flex;
     justify-content: center;
-
     font-family: 'Bree Serif', serif;
 }
 
@@ -429,20 +389,17 @@ tr{
     /* display: flex; */
     justify-content: center;
     justify-content: space-evenly;
-
 }
 
 .group1-cont{
     height: 70px;
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
     justify-content: space-evenly;
 }
-
-
 
 .group2-cont{
     height: 70px;
@@ -461,13 +418,43 @@ tr{
     align-items: center;
     justify-content: center;
     background-color: #31333b;
-    border-radius: 10px;
-    /* font-size: 25px; */
+    border-radius: 10px;  
     color: #f2f3f2;
 }
 
 .info-space{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,'Bree Serif', serif;
+    text-decoration: none;
     padding-left: 15px;
     color: #ddaa4b;
+}
 
+.fa-regular{
+    color: white;
+}
+
+.resume{
+    height: 200px;
+    width: 100%;
+    background-color: #31333b;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-block{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    height: 70px;
+    width: 25%;
+    background-color: #3d3e42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.remove-blue{
+    text-decoration: none;
+    color: white; 
 }
